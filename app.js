@@ -1,0 +1,24 @@
+// 1. Write a function that creates a closure and returns a function that can add
+// a specific number to any number passed to it. For example, if the closure is
+// created with 5, the returned function should add 5 to any number passed
+// to it.
+
+// function addNumber(num) {
+//   return function(value) {
+//     return num + value;
+//   }
+// }
+// let addFive = addNumber(5);
+
+// console.log(addFive(10));
+
+// ********************************************** // ********************************************** //
+
+
+// 2. Write a recursive function that searches an array for a specific value. The
+// function should return true if the value is found, and false if it is not. You
+// can assume that the array is not nested.
+
+
+
+
