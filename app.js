@@ -18,22 +18,25 @@
 // function should return true if the value is found, and false if it is not. You
 // can assume that the array is not nested.
 
+const arr = [1, 2, 3, 4, 5, 6, 7];
+
 function searchArray(arr, value) {
   if (arr.length === 0) {
-    return false;
+    return console.log(false);
   }
   for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
     if (Array.isArray(element)) {
       if (searchArray(element, value)) {
-        return true;
+        return console.log(true);
       }
     } else {
       if (element === value) {
-        return true;
+        return console.log(true);
       }
     }
   }
-  return false;
+  return console.log(false);
 }
 
+searchArray(arr,10);
