@@ -87,21 +87,21 @@
 // to the HTML element, and the second argument is a string representing
 // the new background color.
 
-function changeBackgroundColor(element, color) {
-  element.style.backgroundColor = color;
-}
+// function changeBackgroundColor(element, color) {
+//   element.style.backgroundColor = color;
+// }
 
-const myElement = document.getElementById("my-element");
+// const myElement = document.getElementById("my-element");
 
-changeBackgroundColor(myElement, "green");
+// changeBackgroundColor(myElement, "green");
 
-function changeTextColor(element, color) {
-    element.style.color = color;
-  }
+// function changeTextColor(element, color) {
+//     element.style.color = color;
+//   }
   
-  const my_Element = document.getElementById("my-element");
+//   const my_Element = document.getElementById("my-element");
   
-  changeTextColor(my_Element, "white");
+//   changeTextColor(my_Element, "white");
 
 // ********************************************** // ********************************************** //
 
